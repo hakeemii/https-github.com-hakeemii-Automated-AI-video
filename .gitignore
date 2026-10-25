@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+**/venv/
+**/.venv/
+env/
+**/env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ComfyUI Models, Cache, and User Data
+ComfyUI/models/
+ComfyUI/output/
+ComfyUI/temp/
+ComfyUI/input/
+ComfyUI/user/
+*.sqlite3
+*.db
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
